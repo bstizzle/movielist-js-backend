@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   get '/users' => 'users#index'
   get '/users/:id' => 'users#show'
   get '/movies' => 'movies#index'
+  post '/user_movies' => 'user_movies#create'
 end
