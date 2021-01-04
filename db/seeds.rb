@@ -13,5 +13,14 @@
 # User.create(username: 'ben')
 # User.create(username: 'jeremy')
 
-UserMovie.create(user_id: 1, movie_id: 1, watched: true)
-UserMovie.create(user_id: 1, movie_id: 3, watched: false)
+# UserMovie.create(user_id: 1, movie_id: 1, watched: true)
+# UserMovie.create(user_id: 1, movie_id: 3, watched: false)
+
+# Movie.create(title: "", year: , genre: "", synopsis: "", image: "")
+
+Movie.create(title: "Inglorious Bastards", year: 2009, genre: "Drama", synopsis: "In Nazi-occupied France during World War II, a plan to assassinate Nazi leaders by a group of Jewish U.S. soldiers coincides with a theatre owner's vengeful plans for the same.", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFKGcZMIKVypOwiTgeGpa7tnKcaLuVt9yd0EUDDERTnB5CHr73")
+Movie.create(title: "Pulp Fiction", year: 1994, genre: "Drama", synopsis: "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.", image: "https://m.media-amazon.com/images/I/71c05lTE03L._AC_SL1024_.jpg")
+
+Movie.create(title: 'Apollo 13', year: 1995, genre: "Sci-fi", synopsis: "This Hollywood drama is based on the events of the Apollo 13 lunar mission, astronauts Jim Lovell (Tom Hanks), Fred Haise (Bill Paxton) and Jack Swigert (Kevin Bacon) find everything going according to plan after leaving Earth's orbit. However, when an oxygen tank explodes, the scheduled moon landing is called off. Subsequent tensions within the crew and numerous technical problems threaten both the astronauts' survival and their safe return to Earth.", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPB_dj4KEE1iWLLTfrFw-W5UjcBv6ieJJFEw1AV7EdM8OwO4q6")
+Movie.create(title: "The Lighthouse", year: 2019, genre: "Horror, Drama", synopsis: "Two lighthouse keepers try to maintain their sanity while living on a remote and mysterious New England island in the 1890s.", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8CX1MlNhMlR6i85pQFR9nug9EBE4PVvpiSxfkW3hQkjDiJrUR")
+Movie.create(title: "Mad Max: Fury Road", year: 2015, genre: "Action, Adventure", synopsis: "Years after the collapse of civilization, the tyrannical Immortan Joe enslaves apocalypse survivors inside the desert fortress the Citadel. When the warrior Imperator Furiosa (Charlize Theron) leads the despot's five wives in a daring escape, she forges an alliance with Max Rockatansky (Tom Hardy), a loner and former captive. Fortified in the massive, armored truck the War Rig, they try to outrun the ruthless warlord and his henchmen in a deadly high-speed chase through the Wasteland.", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn1OTYGz2GDC1XjA9tirh_1Rd571yE5UFIYsmZp4nACMd7CCHM")
