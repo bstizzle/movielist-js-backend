@@ -6,9 +6,6 @@ class UserMoviesController < ApplicationController
 
     def create
         user_movie = UserMovie.create(user_movie_params)
-        # user_movie = UserMovie.new(user_movie_params)
-        # user_movie.review = ''
-        # user_movie.save
         render json: user_movie
     end
 
@@ -17,7 +14,7 @@ class UserMoviesController < ApplicationController
         render json: user_movie
     end
 
-    def edit
+    def update
         user_movie = UserMovie.find(params[:id])
         user_movie.update(user_movie_params)
         render json: user_movie
