@@ -26,6 +26,7 @@ ActiveRecord::Schema.define(version: 2021_01_04_164213) do
     t.integer "user_id", null: false
     t.integer "movie_id", null: false
     t.boolean "watched"
+    t.text "review"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["movie_id"], name: "index_user_movies_on_movie_id"

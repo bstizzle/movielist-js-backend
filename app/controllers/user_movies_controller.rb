@@ -6,6 +6,9 @@ class UserMoviesController < ApplicationController
 
     def create
         user_movie = UserMovie.create(user_movie_params)
+        # user_movie = UserMovie.new(user_movie_params)
+        # user_movie.review = ''
+        # user_movie.save
         render json: user_movie
     end
 
@@ -27,6 +30,6 @@ class UserMoviesController < ApplicationController
     end
 
     def user_movie_params
-        params.permit(:user_id, :movie_id, :watched)
+        params.permit(:user_id, :movie_id, :watched, :review)
     end
 end
