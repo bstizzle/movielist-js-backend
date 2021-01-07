@@ -27,6 +27,6 @@ class UserMoviesController < ApplicationController
     end
 
     def user_movie_params
-        params.permit(:user_id, :movie_id, :watched, :review)
+        params.permit(:user_id, :movie_id, :watched, :review, :rating)
     end
 end

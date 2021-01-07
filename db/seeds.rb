@@ -13,7 +13,7 @@ Movie.create(title: 'The Good, the Bad, and the Ugly', year: 1966, genre: "Weste
 User.create(username: 'ben')
 User.create(username: 'jeremy')
 
-UserMovie.create(user_id: 1, movie_id: 1, watched: true, review: "test review")
+UserMovie.create(user_id: 1, movie_id: 1, watched: true, review: "test review", rating: 4)
 UserMovie.create(user_id: 1, movie_id: 3, watched: false)
 
 # Movie.create(title: "", year: , genre: "", synopsis: "", image: "")
