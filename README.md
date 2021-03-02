@@ -1,24 +1,19 @@
-# README
+## Flix-Fix
+An app where you can search and view info about movies, as well as watch trailers and read reviews, and then maintain a watchlist. The watch list has both to-watch and has-watched columns.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Technologies
+Project is created with:
+* Ruby: 2.6.1
+* Rails: 6.0.3
+	
+## Setup
+To run this project, after following the steps below go to the [frontend setup](https://github.com/bstizzle/movielist-js-frontend)
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+$ cd ../movielist-js-backend
+$ bundle install
+$ rails db:create
+$ rails db:migrate
+$ rails db:seed
+$ rails s
+```
